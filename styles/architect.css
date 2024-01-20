@@ -77,6 +77,59 @@
     margin-top: 50px;
   }
 
+  /* main style */
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+
+  /* teams styles */
+
+  .teams-container{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+  }
+
+  .teams-images{
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .teams-content{
+    padding: 0px 70px 0px 70px;
+  }
+
+  .Quick-list{
+    font-weight:500;
+    font-size:2.8rem;
+    color:#727272;"
+  }
+  .of-our{
+    font-weight:700;
+    font-size:2.8rem;
+    color: #131313;
+  }
+ 
+  .of-our{
+    font-weight:700;
+    font-size:2.8rem;
+    color: #131313;
+  }
+ 
+  .Features{
+    font-weight:700;
+    font-size:2.8rem;
+    color: #FF900E;
+  }
+  .team-description{
+    color :#727272;
+  }
+ 
+
   /* responsive media query */
   /* mobile devices */
 
