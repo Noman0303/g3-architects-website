@@ -10,6 +10,10 @@
     /* font-size: 1rem; (page e built in 1 rem thake, tai lekhbona)
     font-weight: 400;(page e built in weight - 400 thake, tai lekhbona) */
 
+.text-grey{
+  color: #727272;
+}
+
   .btn-primary{
     border-radius: 8px;
     color: #FFF;
@@ -68,9 +72,7 @@
     font-weight: 700;
     color: #131313;
   }
-  .banner-description{
-    color:#727272;
-  }
+
 
   .banner img{
     width: 100%;
@@ -81,13 +83,12 @@
   main{
     max-width: 1440px;
     margin: 0 auto;
-    
+    margin-top: 85px;
   }
 
   /* teams styles */
 
-  .teams-container{
-    margin-top: 85px;
+.teams-container{
     display: flex;
     align-items: center;
   }
@@ -140,8 +141,16 @@
     nav{
       flex-direction: column;
     }
+    .teams-container{
+      flex-direction: column;
+    }
+    .teams-content{
+      padding: 0px 20px 0px 20px;
+    }
+    .teams-images{
+      grid-template-columns:1fr;
+    }
   }
-
   @media screen and (min-width:576px) and (max-width: 992px) {
    
     header{
@@ -151,4 +160,11 @@
     nav{
       flex-direction: column;
     }
+    .teams-container{
+      flex-direction: column;
+    }
+    .teams-content{
+      padding: 0px 20px 0px 20px;
+    }
+
   }
