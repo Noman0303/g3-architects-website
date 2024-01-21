@@ -14,6 +14,64 @@
   color: #727272;
 }
 
+.font400-16px{
+  font-size: 1rem;
+  font-weight:400;
+  color:#727272;
+}
+
+
+.font500-18px{
+  font-size: 1rem;
+  font-weight: 500;
+  color:#131313;
+}
+
+.font500-45px{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color:#727272;
+}
+
+
+.font500-18px{
+  font-size: 1rem;
+  font-weight: 500;
+  color:#131313;
+}
+
+.font500-45px{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color:#727272;
+}
+
+
+.font600-20px{
+  font-size: 1.1 rem;
+  font-weight: 600;
+  color:#727272;
+}
+.font600-20px{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:#131313;
+}
+
+.font700-45px{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color:#131313;
+}
+.font700-64px{
+  font-size: 4rem;
+  font-weight: 700;
+  color:#131313;
+}
+
+
+
+
   .btn-primary{
     border-radius: 8px;
     color: #FFF;
@@ -107,7 +165,7 @@
   .Quick-list{
     font-weight:500;
     font-size:2.8rem;
-    color:#727272;"
+    color:#727272;
   }
   .of-our{
     font-weight:700;
@@ -129,7 +187,12 @@
   .team-description{
     color :#727272;
   }
- 
+
+  /* fact styles */
+
+  .facts-heading{
+
+  }
 
   /* responsive media query */
   /* mobile devices */
